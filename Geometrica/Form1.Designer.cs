@@ -3,12 +3,12 @@
     partial class Form1
     {
         /// <summary>
-        ///  Required designer variable.
+        /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
-        ///  Clean up any resources being used.
+        /// Clean up any resources being used.
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
@@ -23,38 +23,37 @@
         #region Windows Form Designer generated code
 
         /// <summary>
-        ///  Required method for Designer support - do not modify
-        ///  the contents of this method with the code editor.
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
+            btn_Start = new Button();
             SuspendLayout();
             // 
-            // label1
+            // btn_Start
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(211, 9);
-            label1.Name = "label1";
-            label1.Size = new Size(350, 20);
-            label1.TabIndex = 0;
-            label1.Text = "Escolha uma forma para calcular suas propriedades";
+            btn_Start.Location = new Point(75, 61);
+            btn_Start.Name = "btn_Start";
+            btn_Start.Size = new Size(94, 29);
+            btn_Start.TabIndex = 0;
+            btn_Start.Text = "Start";
+            btn_Start.UseVisualStyleBackColor = true;
+            btn_Start.Click += btn_Start_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(label1);
+            ClientSize = new Size(240, 158);
+            Controls.Add(btn_Start);
             Name = "Form1";
             Text = "Form1";
-            Load += Form1_Load;
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
 
-        private Label label1;
+        private Button btn_Start;
     }
 }
